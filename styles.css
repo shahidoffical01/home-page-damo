@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+header{
+    
+    background-image: url("./desktop-wallpaper-minimalism-illumination-lighting-light-bulb-electricity-rope-edison-lamp-lamochka.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.contanier{
+    margin: 0px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    height: 100vh;
+    flex-direction: column;
+}
+h1{
+    font-size: 54px;
+    font-weight: 700;
+
+}
+p{
+    font-size: 18px;
+    padding-top: 20px;
+    margin-bottom: 30px;
+}
+button{
+    padding: 12px 16px;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    background-color: rgba(0, 255, 255, 0.425);
+    color: #fff;
+    border-radius: 5px;
+   
+    cursor: pointer;
+}
+button:hover{
+    background-color: black;
+    color: #fff;
+    transition: all 0.3s;
+    border: 2px solid rgb(185, 175, 175);
+}
